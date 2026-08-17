@@ -2,8 +2,16 @@
 
 End-to-end NLP portfolio project for classifying customer reviews into positive/negative sentiment and translating model output into customer-experience insights.
 
+## About the Author
+
+**Kiran Tayde** — Senior Data Scientist | NLP | Machine Learning | Predictive Analytics | Business Intelligence
+
+I build applied machine learning and analytics solutions that turn unstructured and structured data into actionable business insights, with a focus on NLP, predictive modeling and production-ready workflows.
+
+**GitHub:** https://github.com/kirangtayde
+
 ## NLP workflow
-`raw reviews -> text normalization -> tokenization -> stopword handling -> stemming/lemmatization -> TF-IDF / BoW / Word2Vec -> classifier -> evaluation -> error analysis`
+`raw reviews → text normalization → tokenization → stopword handling → stemming/lemmatization → TF-IDF / BoW / Word2Vec → classifier → evaluation → error analysis`
 
 ## Models
 - Logistic Regression baseline
@@ -24,4 +32,8 @@ Python, Pandas, NumPy, NLTK/spaCy concepts, scikit-learn, Gensim, pytest.
 ## Resume summary
 Built an NLP sentiment classification workflow using preprocessing, TF-IDF/BoW/Word2Vec feature engineering, binary classification, evaluation and business-oriented error analysis.
 
-Author: Kiran Tayde | Senior Data Scientist
+## Connect
+
+**Kiran Tayde** · Senior Data Scientist · NLP · Machine Learning
+
+[GitHub](https://github.com/kirangtayde)
