@@ -1,39 +1,103 @@
-# Customer Review Sentiment Analysis
+# 💬 Customer Review Sentiment Analysis
 
-End-to-end NLP portfolio project for classifying customer reviews into positive/negative sentiment and translating model output into customer-experience insights.
+![Python](https://img.shields.io/badge/Python-3.11%2B-blue)
+![NLP](https://img.shields.io/badge/NLP-Sentiment%20Analysis-orange)
+![ML](https://img.shields.io/badge/ML-Text%20Classification-purple)
+![Testing](https://img.shields.io/badge/Testing-PyTest-green)
 
-## About the Author
+End-to-end **NLP sentiment classification** project that converts customer review text into sentiment predictions and actionable customer-experience insights.
 
-**Kiran Tayde** — Senior Data Scientist | NLP | Machine Learning | Predictive Analytics | Business Intelligence
+## 👨‍💻 Author
 
-I build applied machine learning and analytics solutions that turn unstructured and structured data into actionable business insights, with a focus on NLP, predictive modeling and production-ready workflows.
+**Kiran Tayde — Senior Data Scientist | NLP | Machine Learning | Predictive Analytics | Business Intelligence**
 
-**GitHub:** https://github.com/kirangtayde
+GitHub: https://github.com/kirangtayde
 
-## NLP workflow
-`raw reviews → text normalization → tokenization → stopword handling → stemming/lemmatization → TF-IDF / BoW / Word2Vec → classifier → evaluation → error analysis`
+## 🎯 Objective
 
-## Models
-- Logistic Regression baseline
-- Linear SVM
-- Naive Bayes
+Automatically classify customer reviews, identify negative feedback and support structured analysis of customer experience at scale.
+
+## 🔬 NLP Workflow
+
+```text
+Raw Reviews
+    ↓
+Text Cleaning & Normalization
+    ↓
+Tokenization
+    ↓
+Stopword Handling
+    ↓
+Stemming / Lemmatization
+    ↓
+TF-IDF / BoW / Embeddings
+    ↓
+Classifier
+    ↓
+Evaluation
+    ↓
+Error Analysis
+    ↓
+Business Insights
+```
+
+## 🤖 Models
+
+- Logistic Regression — baseline
+- Linear SVM — strong sparse-text classifier
+- Naive Bayes — probabilistic baseline
 - Optional tree/boosting comparison
-- Word2Vec embeddings for dense feature experiments
+- Word2Vec embeddings for dense-feature experiments
 
-## Evaluation
-Accuracy, precision, recall, F1, ROC-AUC, confusion matrix, class-wise errors and threshold analysis.
+## 📊 Evaluation
 
-## Business use
-Prioritize negative feedback, identify recurring issues, monitor customer experience and support root-cause analysis. Real customer data should be anonymized and approved before use.
+Accuracy • Precision • Recall • F1 • ROC-AUC • Confusion Matrix • Class-wise Error Analysis • Threshold Analysis
 
-## Stack
-Python, Pandas, NumPy, NLTK/spaCy concepts, scikit-learn, Gensim, pytest.
+For imbalanced datasets, precision/recall and class-specific performance should be considered alongside accuracy.
 
-## Resume summary
-Built an NLP sentiment classification workflow using preprocessing, TF-IDF/BoW/Word2Vec feature engineering, binary classification, evaluation and business-oriented error analysis.
+## 💼 Business Applications
 
-## Connect
+- Prioritize negative reviews
+- Identify recurring customer issues
+- Monitor customer experience
+- Support root-cause analysis
+- Surface trends for product/service teams
+
+Real customer data should be anonymized, authorized and handled according to applicable privacy requirements.
+
+## 🛠️ Stack
+
+Python • Pandas • NumPy • NLTK • spaCy • scikit-learn • Gensim • PyTest
+
+## 📁 Project Structure
+
+```text
+data/
+notebooks/
+src/
+models/
+reports/
+tests/
+requirements.txt
+README.md
+```
+
+## 🚀 Quick Start
+
+```bash
+git clone https://github.com/kirangtayde/customer-review-sentiment-analysis.git
+cd customer-review-sentiment-analysis
+python -m venv .venv
+pip install -r requirements.txt
+pytest -q
+```
+
+## 📌 Resume Summary
+
+**Customer Review Sentiment Analysis | Python, NLP, Scikit-learn** — Built an NLP sentiment-classification workflow covering text preprocessing, TF-IDF/BoW/Word2Vec feature engineering, multiple classifiers, evaluation and business-oriented error analysis.
+
+## 🔗 Connect
 
 **Kiran Tayde** · Senior Data Scientist · NLP · Machine Learning
 
-[GitHub](https://github.com/kirangtayde)
+https://github.com/kirangtayde
